@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/mobclick.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+    <nav class="navbar" role="navigation">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">MobClick</a>
+      </div>
+    </nav>
+    <section id="loginScreen">
+      <div class="row">
+        <div class="col-sm-4 col-sm-offset-4">
+          <form role="form">
+            <fieldset>
+              <legend>Login</legend>
+              <div class="form-group">
+                <label for="eventCode">Event Code</label>
+                <input type="text" class="form-control" id="eventCode" placeholder="Ex. 5TREB9">
+              </div>
+              <div class="form-group">
+                <label for="eventPassword">Password</label>
+                <input type="password" class="form-control" id="eventPassword" placeholder="Password">
+              </div>
+              <div class="form-group">
+                <label for="userName">Your name</label>
+                <input type="text" class="form-control" id="userName" placeholder="Ex. Bob, Patty, Dan Bowen">
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" checked> I love this!
+                </label>
+              </div>
+              <button type="submit" class="btn btn-success btn-block">Log in</button>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section id="app">
+      <h1>Upload your picture!</h1>
+      <div id="uploaders">
+      </div>
+      <div class="row">
+        <div id="uploads" class="col-sm-8 col-sm-offset-2">
+        </div>
+      </div>
+      <div class="row">
+        <div id="results" class="col-sm-8 col-sm-offset-2">
+        </div>
+      </div>
+    </section>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/core.js"></script>
+    <script type="text/javascript" src="//assets.transloadit.com/js/jquery.transloadit2-latest.js"></script>
+  </body>
+</html>
